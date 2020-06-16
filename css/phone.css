@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Acme', sans-serif;
+}
+ 
+ @media screen and (max-width:500px){
+
+    .head {
+        height: 15%;
+    }
+    .head .menu{
+        display: none;
+    }
+
+    .offer {
+        margin: auto;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        padding: 5%;
+    }
+
+    .offer .service {
+        margin: auto;
+        width: 50%;
+        border: none;
+        padding: 5% 15;
+    }
+    .offer .service p{
+        display: none;
+    }
+
+
+    .shop {
+        margin: auto;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        padding: 5%;
+    }
+
+    .shop .shop-detail {
+        margin: auto;
+        width: 50%;
+        border: none;
+        padding: 5% 15;
+    }
+    
+    .footer{
+        margin: auto;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .footer .map {
+        margin: auto;
+        width: 50% ;
+        text-align: center;
+    }
+    
+    .footer .menu {
+        text-align: center;
+        margin: auto;
+        width: 50%;
+        font-size: 1.5rem;
+    }
+
+    .footer h5 {
+        padding-top: 15% ;
+    }
+
+    .footer .mapouter {
+        margin: auto;
+    }
+
+
+}
